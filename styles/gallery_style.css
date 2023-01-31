@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
+
+* {
+	margin: 0px;
+	font-family: "Ubuntu", sans-serif;
+}
+
+/*----------------Here Starts the Header-------------------*/
+#header {
+	background-color: #3b6b5d;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 10vh;
+}
+#logo {
+	height: auto;
+	width: 7vh;
+	margin-left: 20px;
+}
+.navbar {
+	margin-right: 30px;
+}
+#list {
+	width: inherit;
+	list-style-type: none;
+	display: flex;
+	height: inherit;
+	align-items: center;
+}
+.item {
+	padding: 30px;
+}
+.item:hover {
+	border: solid 1px white;
+	border-radius: 20px;
+	background-color: #98b8ae;
+}
+a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 25px;
+}
+/*----------------Here Starts the main---------------------*/
+
+#main{
+    background-color: aliceblue;
+    height: 80vh;
+}
+
+
+.carrousel{
+    width: 90%;
+    max-width: 120em; 
+    border-color: black;
+    border-width: 2px;
+    padding: 2em;
+}
+
+.grande{
+    width: 200%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2em;
+    transition:all .5s ease;
+    transform: translateX(-45%)
+}
+
+.img{
+    width: calc(100%/2 -2em);
+    min-height: 10vh;
+    height: 40vh;
+    width: 60vh;
+    border-style: double;
+    border-color: black;
+    border-width: 1px;
+    justify-content: space-between;
+    margin: 2em;
+}
+
+.puntos{
+    width: 100%;
+    margin: 1em 0 0;
+    padding: 0.4em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.punto{
+width: 2em;
+height: 2em;
+background-color: grey;
+margin: 1em 1em 0;
+border-radius: 50%;
+}
+
+.activo{
+    background-color: red;
+}
+
+/*----------------Here Starts the Footer-------------------*/
+#foot {
+	background-color: #65ab94;
+	height: 10vh;
+}
+#footlist {
+	height: inherit;
+	text-decoration: none;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	align-items: center;
+}
+
+
+
+/*--------------------------------*/
