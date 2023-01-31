@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
+
+* {
+	margin: 0px;
+	font-family: "Ubuntu", sans-serif;
+}
+/*----------------Here Starts the Header-------------------*/
+#header {
+	background-color: #3b6b5d;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 10vh;
+}
+#logo {
+	height: auto;
+	width: 7vh;
+	margin-left: 20px;
+}
+.navbar {
+	margin-right: 30px;
+}
+#list {
+	width: inherit;
+	list-style-type: none;
+	display: flex;
+	height: inherit;
+	align-items: center;
+}
+.item {
+	padding: 30px;
+}
+.item:hover {
+	border: solid 1px white;
+	border-radius: 20px;
+	background-color: #98b8ae;
+}
+a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 25px;
+}
+/*----------------Here Starts the Main-------------------*/
+#main {
+	background-color: aliceblue;
+	height: 80vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+#rick {
+	height: 50vh;
+}
+#lorem {
+	font-size: 30px;
+	text-align: center;
+	width: 80vw;
+}
+/*----------------Here Starts the Footer-------------------*/
+#foot {
+	background-color: #65ab94;
+	height: 10vh;
+}
+#footlist {
+	height: inherit;
+	text-decoration: none;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	align-items: center;
+}
